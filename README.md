@@ -1,4 +1,4 @@
-### Lithium Ion battery charger
+### Lithium Ion battery charger ( Update in progress )
 #### Objective of the project: The objective of the project is to design a lithium Ion battery charger project using MSP430 series microcontrollers
 
 ![A-Brief-Introduction-to-MSP430-using-Launchpad-MSP430G2553](https://user-images.githubusercontent.com/26503600/227121366-362b866c-f650-4f66-8403-8dcf4cc90eec.jpg)
