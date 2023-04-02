@@ -31,7 +31,6 @@ A Lithium Ion battery charging consists of three stages
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Circuit diagram / Block diagram
 ![Circuit diagram](https://user-images.githubusercontent.com/26503600/229355294-56a3058b-d613-4a8a-bec6-3228fabff08e.jpg)
-
 The circuit is divided into the following stages
 1. Power block stage: 6V adaptor and LDO
 2. Controller stage: MSP430 controller
