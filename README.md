@@ -28,3 +28,15 @@ A Lithium Ion battery charging consists of three stages
 3. If battery voltage is less than 2.5V, the system has to be trickle charged at the rate ofd 0.1C
 4. If the battery voltage is more than 3V, battery has to charge in C-V mode at the rate of 1C
 5. Once battery voltage reaches 4.2 volts, and charge current drops below 10% of battery current, charging has to stop / terminate.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Circuit diagram / Block diagram
+![Circuit diagram](https://user-images.githubusercontent.com/26503600/229355294-56a3058b-d613-4a8a-bec6-3228fabff08e.jpg)
+
+The circuit is divided into the following stages
+1. Power block stage: 6V adaptor and LDO
+2. Controller stage: MSP430 controller
+3. DC-DC converter stage: This includes the PWM switch, followed by buck converter stage
+4. Feedback stage: This includes current sensing, voltage sensing and temperature sensing stages
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Designing the battery charger system
+
